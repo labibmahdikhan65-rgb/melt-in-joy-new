@@ -138,13 +138,6 @@ export default function InstagramFeed() {
         </Marquee>
       </motion.div>
 
-      {/* Disclaimer */}
-      <div className="max-w-7xl mx-auto px-6 md:px-12 mt-8">
-        <p className="text-xs text-cream-400/70">
-          Placeholder gallery — connect the Instagram Graph API or a widget
-          service to stream @meltinjoy's latest posts automatically.
-        </p>
-      </div>
     </section>
   );
 }

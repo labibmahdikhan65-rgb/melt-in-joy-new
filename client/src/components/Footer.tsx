@@ -1,7 +1,8 @@
-import { MapPin, Navigation, Instagram } from "lucide-react";
+import { MapPin, Navigation, Instagram, Music2 } from "lucide-react";
 
 const IG_HANDLE = "meltinjoy";
 const IG_URL = "https://instagram.com/meltinjoy";
+const TIKTOK_URL = "https://www.tiktok.com/@meltinjoy?is_from_webapp=1&sender_device=pc";
 
 const locations = [
   {
@@ -55,6 +56,16 @@ export default function Footer() {
             >
               <Instagram size={16} />
               @{IG_HANDLE}
+            </a>
+            <a
+              href={TIKTOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok @meltinjoy"
+              className="rounded-full border border-gold-400/40 px-4 py-2 text-gold-300 hover:bg-gold-400 hover:text-cocoa-900 transition-colors inline-flex items-center gap-2 text-sm"
+            >
+              <Music2 size={16} />
+              TikTok
             </a>
           </div>
 
