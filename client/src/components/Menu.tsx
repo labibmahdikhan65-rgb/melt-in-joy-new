@@ -140,7 +140,7 @@ const menuCategories: MenuCategory[] = [
         price: "$16",
         desc: "Strawberries in a cup, covered with Belgian chocolate and a decadent blend of kataifi and pistachio sauce",
         tag: "Viral sensation",
-        image: "https://images.unsplash.com/photo-1543255006-d639546f3c7e?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        image: "https://images.unsplash.com/photo-1543255006-d639546f3c7e?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
         span: "lg:col-span-7",
       },
       {
@@ -361,9 +361,9 @@ const menuCategories: MenuCategory[] = [
 ];
 
 export default function Menu() {
-  const [activeTab, setActiveTab] = useState("crepes");
+  const [activeTab, setActiveTab] = useState("strawberries");
 
-  const currentCategory = menuCategories.find((cat) => cat.id === activeTab) || menuCategories[0];
+  const currentCategory = menuCategories.find((cat) => cat.id === activeTab) || menuCategories[2];
 
   const featuredCards = currentCategory.items.filter((item) => item.image);
   const listItems = currentCategory.items.filter((item) => !item.image);
