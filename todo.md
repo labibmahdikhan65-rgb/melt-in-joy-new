@@ -20,3 +20,4 @@
 - [x] Provide reliable images for every single menu item across all categories.
 - [x] Match every menu item with precise, item-accurate dessert photography.
 - [x] Ensure every category uses strictly correct item images (crepes for crepes, waffles for waffles, etc.).
+- [x] Remove all menu photos, then re-add category-by-category starting with verified crepe-only images.
