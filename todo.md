@@ -9,3 +9,5 @@
 - [x] Cross-reference authoritative directories (Google Maps, Apple Maps, Doordash, official Instagram posts).
 - [x] Construct a structured comparison table categorizing each site claim (Verified, Unverified, Discrepancy).
 - [x] Present the final fact-check audit report to the user.
+- [ ] Transcribe and verify every menu item, price, category, add-on, and allergen note from the menu board photo against `Menu.tsx`.
+- [ ] Run type check (`pnpm check`), test build, and capture preview screenshots to verify the updated menu rendering.
