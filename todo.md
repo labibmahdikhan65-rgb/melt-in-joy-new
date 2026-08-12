@@ -15,3 +15,4 @@
 - [x] Restore image-led visual cards to the Menu component while keeping all menu categories and items.
 - [x] Verify build and rendering.
 - [x] Ensure Menu.tsx reflects only the exact categories, item names, and prices shown on the menu board.
+- [x] Restore image-led visual cards for verified menu items without altering verified prices or names.

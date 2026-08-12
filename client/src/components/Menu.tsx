@@ -6,6 +6,9 @@ interface MenuItem {
   name: string;
   price: string;
   desc?: string;
+  tag?: string;
+  image?: string;
+  span?: string;
 }
 
 interface MenuCategory {
@@ -25,11 +28,17 @@ const menuCategories: MenuCategory[] = [
         name: "Joyful Crepe",
         price: "$20",
         desc: "Three Crepes cut into fettucine-style pieces, served with your choice of sauce and a scoop of ice cream on top",
+        tag: "The famous one",
+        image: "https://images.unsplash.com/photo-1734056650146-bde92ed41f5b?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+        span: "lg:col-span-7",
       },
       {
         name: "Pistachio Crunch Crepe",
         price: "$22",
         desc: "Three Crepes cut into fettucine-style pieces, served with Belgian Chocolate, Pistachio sauce, Crunchy Kataifi and a scoop of ice cream on top",
+        tag: "Signature",
+        image: "https://images.unsplash.com/photo-1723029343498-b061d6594a42?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-5",
       },
       {
         name: "Classic Crepe",
@@ -79,6 +88,22 @@ const menuCategories: MenuCategory[] = [
     icon: IceCream,
     items: [
       {
+        name: "Large Waffle Bites",
+        price: "$20",
+        desc: "Three waffles cut into bite-sized pieces, topped with strawberries, ice cream and your choice of sauce",
+        tag: "Popular",
+        image: "https://images.unsplash.com/photo-1773516035322-e413a151ad14?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-5",
+      },
+      {
+        name: "Brownie Waffle w Ice Cream",
+        price: "$20",
+        desc: "Two waffles cut into bite-sized pieces, topped with Belgian milk chocolate and chunks of brownies with a scoop of ice cream on top.",
+        tag: "Warm & indulgent",
+        image: "https://images.unsplash.com/photo-1551578657-a7e74acb0135?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+        span: "lg:col-span-7",
+      },
+      {
         name: "Classic Waffle Pop",
         price: "$10",
         desc: "A single waffle served on a stick with your choice of sauce",
@@ -87,11 +112,6 @@ const menuCategories: MenuCategory[] = [
         name: "Small Waffle Bites",
         price: "$16",
         desc: "Two waffles cut into bite-sized pieces, topped with strawberries and your choice of sauce",
-      },
-      {
-        name: "Large Waffle Bites",
-        price: "$20",
-        desc: "Three waffles cut into bite-sized pieces, topped with strawberries, ice cream and your choice of sauce",
       },
       {
         name: "Waffle Fruit",
@@ -108,11 +128,6 @@ const menuCategories: MenuCategory[] = [
         price: "$15",
         desc: "A single waffle lathered in warm salted caramel sauce and paired with a scoop of vanilla ice cream",
       },
-      {
-        name: "Brownie Waffle w Ice Cream",
-        price: "$20",
-        desc: "Two waffles cut into bite-sized pieces, topped with Belgian milk chocolate and chunks of brownies with a scoop of ice cream on top.",
-      },
     ],
   },
   {
@@ -121,14 +136,20 @@ const menuCategories: MenuCategory[] = [
     icon: Sparkles,
     items: [
       {
-        name: "Cup of Joy",
-        price: "$14",
-        desc: "Strawberries in a cup, covered with Belgian chocolate",
-      },
-      {
         name: "Strawberry Pistachio Crunch Cup",
         price: "$16",
         desc: "Strawberries in a cup, covered with Belgian chocolate and a decadent blend of kataifi and pistachio sauce",
+        tag: "Viral sensation",
+        image: "https://images.unsplash.com/photo-1543255006-d639546f3c7e?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-7",
+      },
+      {
+        name: "Cup of Joy",
+        price: "$14",
+        desc: "Strawberries in a cup, covered with Belgian chocolate",
+        tag: "Fresh daily",
+        image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-5",
       },
       {
         name: "Small Strawberry Bites",
@@ -148,9 +169,20 @@ const menuCategories: MenuCategory[] = [
     icon: Cookie,
     items: [
       {
+        name: "San Sebastian Cheese Cake",
+        price: "$16",
+        desc: "With your choice of sauce",
+        tag: "Rich & creamy",
+        image: "https://images.unsplash.com/photo-1524351199678-941a58a3df50?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-6",
+      },
+      {
         name: "Lotus Sweet w Ice Cream",
         price: "$15",
         desc: "A Biscoff based cookie, baked fresh in the oven to order. Served w/ Biscoff sauce and a scoop of ice cream",
+        tag: "Biscoff favorite",
+        image: "https://images.unsplash.com/photo-1708175313856-8573b2bf8a3a?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-6",
       },
       {
         name: "Cookies w Ice Cream",
@@ -161,11 +193,6 @@ const menuCategories: MenuCategory[] = [
         name: "M&M Cookie",
         price: "$15",
         desc: "An M&M cookie, baked fresh in the oven to order. Served in Belgian Chocolate and Ice Cream",
-      },
-      {
-        name: "San Sebastian Cheese Cake",
-        price: "$16",
-        desc: "With your choice of sauce",
       },
       {
         name: "Lava Cake w Ice Cream",
@@ -198,10 +225,22 @@ const menuCategories: MenuCategory[] = [
     title: "Matcha",
     icon: CupSoda,
     items: [
+      {
+        name: "Strawberry Matcha",
+        price: "$9",
+        tag: "Best seller",
+        image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-6",
+      },
+      {
+        name: "Spanish Matcha Latte",
+        price: "$10",
+        tag: "Smooth",
+        image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-6",
+      },
       { name: "Iced Matcha", price: "$8" },
       { name: "Matcha Latte", price: "$7" },
-      { name: "Spanish Matcha Latte", price: "$10" },
-      { name: "Strawberry Matcha", price: "$9" },
       {
         name: "Matcha Cookie",
         price: "$15",
@@ -247,10 +286,16 @@ const menuCategories: MenuCategory[] = [
     title: "Cold Drinks",
     icon: CupSoda,
     items: [
+      {
+        name: "Spanish Latte",
+        price: "$10",
+        tag: "Iced favourite",
+        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-12",
+      },
       { name: "Creamy Iced Cappuccino", price: "$10" },
       { name: "Creamy Iced Mocha", price: "$10" },
       { name: "Iced Coffee", price: "$10" },
-      { name: "Spanish Latte", price: "$10" },
       { name: "Mont Blanc", price: "$10" },
       { name: "Thick Shakes", price: "$10", desc: "Vanilla, Cookies n Cream, Salted Caramel, Biscoff" },
       { name: "Minty Lemonade", price: "$10", desc: "A frozen, sweet and refreshing lemon and mint concoction" },
@@ -269,6 +314,13 @@ const menuCategories: MenuCategory[] = [
     title: "Cafe",
     icon: Coffee,
     items: [
+      {
+        name: "Saudi Coffee",
+        price: "$6",
+        tag: "Traditional",
+        image: "https://images.unsplash.com/photo-1661685249298-3d2dbe68d309?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+        span: "lg:col-span-12",
+      },
       { name: "Espresso", price: "$4" },
       { name: "Small Coffee", price: "$5.5" },
       { name: "Large Coffee", price: "$6" },
@@ -312,6 +364,9 @@ export default function Menu() {
   const [activeTab, setActiveTab] = useState("crepes");
 
   const currentCategory = menuCategories.find((cat) => cat.id === activeTab) || menuCategories[0];
+
+  const featuredCards = currentCategory.items.filter((item) => item.image);
+  const listItems = currentCategory.items.filter((item) => !item.image);
 
   return (
     <section className="relative mx-auto max-w-7xl px-6 md:px-12 py-24 md:py-32" id="menu">
@@ -373,30 +428,79 @@ export default function Menu() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.4 }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-5"
+          className="space-y-8"
         >
-          {currentCategory.items.map((item, index) => (
-            <div
-              key={index}
-              className="group relative rounded-2xl border border-white/10 bg-cocoa-800/80 p-5 backdrop-blur-md hover:border-gold-400/40 transition-all flex flex-col justify-between"
-            >
-              <div>
-                <div className="flex justify-between items-start gap-4 mb-1">
-                  <h4 className="font-display text-xl font-bold text-cream group-hover:text-gold-300 transition-colors">
-                    {item.name}
-                  </h4>
-                  <span className="font-display text-xl font-bold text-gold-400">
-                    {item.price}
-                  </span>
-                </div>
-                {item.desc && (
-                  <p className="text-xs md:text-sm text-cream-200/80 leading-relaxed mb-2">
-                    {item.desc}
-                  </p>
-                )}
-              </div>
+          {/* Featured Image Cards (if any in category) */}
+          {featuredCards.length > 0 && (
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-7">
+              {featuredCards.map((item, index) => (
+                <motion.article
+                  key={item.name}
+                  className={`group relative overflow-hidden rounded-3xl border border-white/10 bg-cocoa-800 ${item.span || "lg:col-span-6"} min-h-[300px] md:min-h-[360px]`}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                >
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    loading="lazy"
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-[1200ms] ease-out"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-cocoa-900 via-cocoa-900/40 to-transparent" />
+                  <div className="relative h-full flex flex-col justify-end p-6 md:p-8">
+                    <div className="flex justify-between items-start gap-4 mb-2">
+                      {item.tag && (
+                        <span className="rounded-full border border-gold-400/40 bg-cocoa-900/60 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-gold-300 backdrop-blur-md">
+                          {item.tag}
+                        </span>
+                      )}
+                      <span className="font-display text-2xl font-bold text-gold-400 bg-cocoa-900/80 px-3 py-1 rounded-full border border-gold-400/30">
+                        {item.price}
+                      </span>
+                    </div>
+                    <h3 className="font-display text-2xl md:text-3xl font-bold text-cream mb-2">
+                      {item.name}
+                    </h3>
+                    {item.desc && (
+                      <p className="text-sm text-cream-200">
+                        {item.desc}
+                      </p>
+                    )}
+                  </div>
+                </motion.article>
+              ))}
             </div>
-          ))}
+          )}
+
+          {/* List Items Grid */}
+          {listItems.length > 0 && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {listItems.map((item, index) => (
+                <div
+                  key={index}
+                  className="group relative rounded-2xl border border-white/10 bg-cocoa-800/80 p-5 backdrop-blur-md hover:border-gold-400/40 transition-all flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex justify-between items-start gap-4 mb-1">
+                      <h4 className="font-display text-xl font-bold text-cream group-hover:text-gold-300 transition-colors">
+                        {item.name}
+                      </h4>
+                      <span className="font-display text-xl font-bold text-gold-400">
+                        {item.price}
+                      </span>
+                    </div>
+                    {item.desc && (
+                      <p className="text-xs md:text-sm text-cream-200/80 leading-relaxed mb-2">
+                        {item.desc}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </motion.div>
       </AnimatePresence>
 
