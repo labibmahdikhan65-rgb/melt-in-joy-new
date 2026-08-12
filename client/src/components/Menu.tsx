@@ -28,7 +28,7 @@ const menuCategories: MenuCategory[] = [
         price: "$20",
         desc: "Three Crepes cut into fettucine-style pieces, served with your choice of sauce and a scoop of ice cream on top",
         tag: "The famous one",
-        image: "https://images.unsplash.com/photo-1734056650146-bde92ed41f5b?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Pistachio Crunch Crepe",
@@ -41,49 +41,49 @@ const menuCategories: MenuCategory[] = [
         name: "Classic Crepe",
         price: "$16",
         desc: "Two Crepes cut into fettucine-style pieces served with your choice of sauce",
-        image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1734056650146-bde92ed41f5b?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Lemon & Sugar Crepe",
         price: "$15",
         desc: "Two Crepes cut into fettucine-style pieces, tossed in sugar and served with fresh lemon wedges",
-        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Crepe Fruit",
         price: "$18",
         desc: "Two Crepes cut into fettucine-style pieces, served with Belgian chocolate and covered in Strawberries, Pineapple, Kiwi and Banana",
-        image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Strawberry Crepe",
         price: "$17",
         desc: "Two Crepes cut into fettucine-style pieces, served with Belgian chocolate and covered in Strawberries",
-        image: "https://images.unsplash.com/photo-1543255006-d639546f3c7e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Banana Crepe w Ice Cream",
         price: "$17",
         desc: "One banana wrapped in a crepe, cut into bite-sized pieces, Served with your choice of sauce and a scoop of ice cream",
-        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1723029343498-b061d6594a42?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Oreo Crepe",
         price: "$16",
         desc: "A crepe filled with cream and crushed Oreo, coated in Belgian milk chocolate",
-        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Brownie Crepe w Ice Cream",
         price: "$20",
         desc: "Two crepes cut into fettucine-style pieces, topped with Belgian milk chocolate and covered in brownie chunks with a scoop of ice cream on top",
-        image: "https://images.unsplash.com/photo-1551578657-a7e74acb0135?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Cinnamon Crepe",
         price: "$17",
         desc: "Two crepes cut into fettucine-style pieces, tossed with cinnamon sugar and a scoop of ice cream on top",
-        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -115,26 +115,26 @@ const menuCategories: MenuCategory[] = [
         name: "Waffle Fruit",
         price: "$18",
         desc: "Two half-waffles filled with fresh strawberries, banana, kiwi and pineapple, topped with luscious Belgian milk chocolate.",
-        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Waffle Ice Cream Sandwich",
         price: "$18",
         desc: "Two waffles filled with ice cream topped with luscious Belgian milk chocolate.",
-        image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Salted Caramel Waffle w Ice Cream",
         price: "$15",
         desc: "A single waffle lathered in warm salted caramel sauce and paired with a scoop of vanilla ice cream",
-        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Brownie Waffle w Ice Cream",
         price: "$20",
         desc: "Two waffles cut into bite-sized pieces, topped with Belgian milk chocolate and chunks of brownies with a scoop of ice cream on top.",
         tag: "Indulgent",
-        image: "https://images.unsplash.com/photo-1551578657-a7e74acb0135?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1773516035322-e413a151ad14?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -227,7 +227,7 @@ const menuCategories: MenuCategory[] = [
       {
         name: "Biscoff Choc Fudge Brownie (V)",
         price: "$10",
-        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1708175313856-8573b2bf8a3a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -249,29 +249,29 @@ const menuCategories: MenuCategory[] = [
       {
         name: "Spanish Matcha Latte",
         price: "$10",
-        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Strawberry Matcha",
         price: "$9",
-        image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Matcha Cookie",
         price: "$15",
         desc: "A Matcha based cookie, baked fresh in the oven to order. served covered in White Chocolate and Ice Cream",
-        image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Strawberry Matcha Cookie",
         price: "$16",
         desc: "A Matcha based cookie, baked fresh in the oven to order. served covered in white chocolate, fresh strawberries, syrup and a scoop of Ice Cream",
-        image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Matcha and Raspberry Slice (V)",
         price: "$10",
-        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -593,7 +593,7 @@ export default function Menu() {
                   alt={item.name}
                   loading="lazy"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=srgb&fm=jpg&q=85&w=800";
+                    (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=srgb&fm=jpg&q=85&w=800";
                   }}
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-[1000ms] ease-out"
                 />

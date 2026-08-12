@@ -19,3 +19,4 @@
 - [x] Add image to Strawberry Pistachio Crunch Cup card.
 - [x] Provide reliable images for every single menu item across all categories.
 - [x] Match every menu item with precise, item-accurate dessert photography.
+- [x] Ensure every category uses strictly correct item images (crepes for crepes, waffles for waffles, etc.).
