@@ -17,3 +17,4 @@
 - [x] Ensure Menu.tsx reflects only the exact categories, item names, and prices shown on the menu board.
 - [x] Restore image-led visual cards for verified menu items without altering verified prices or names.
 - [x] Add image to Strawberry Pistachio Crunch Cup card.
+- [x] Provide reliable images for every single menu item across all categories.

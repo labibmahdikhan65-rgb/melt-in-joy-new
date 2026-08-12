@@ -7,8 +7,7 @@ interface MenuItem {
   price: string;
   desc?: string;
   tag?: string;
-  image?: string;
-  span?: string;
+  image: string;
 }
 
 interface MenuCategory {
@@ -29,56 +28,62 @@ const menuCategories: MenuCategory[] = [
         price: "$20",
         desc: "Three Crepes cut into fettucine-style pieces, served with your choice of sauce and a scoop of ice cream on top",
         tag: "The famous one",
-        image: "https://images.unsplash.com/photo-1734056650146-bde92ed41f5b?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
-        span: "lg:col-span-7",
+        image: "https://images.unsplash.com/photo-1734056650146-bde92ed41f5b?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Pistachio Crunch Crepe",
         price: "$22",
         desc: "Three Crepes cut into fettucine-style pieces, served with Belgian Chocolate, Pistachio sauce, Crunchy Kataifi and a scoop of ice cream on top",
         tag: "Signature",
-        image: "https://images.unsplash.com/photo-1723029343498-b061d6594a42?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-5",
+        image: "https://images.unsplash.com/photo-1723029343498-b061d6594a42?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Classic Crepe",
         price: "$16",
         desc: "Two Crepes cut into fettucine-style pieces served with your choice of sauce",
+        image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Lemon & Sugar Crepe",
         price: "$15",
         desc: "Two Crepes cut into fettucine-style pieces, tossed in sugar and served with fresh lemon wedges",
+        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Crepe Fruit",
         price: "$18",
         desc: "Two Crepes cut into fettucine-style pieces, served with Belgian chocolate and covered in Strawberries, Pineapple, Kiwi and Banana",
+        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Strawberry Crepe",
         price: "$17",
         desc: "Two Crepes cut into fettucine-style pieces, served with Belgian chocolate and covered in Strawberries",
+        image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Banana Crepe w Ice Cream",
         price: "$17",
         desc: "One banana wrapped in a crepe, cut into bite-sized pieces, Served with your choice of sauce and a scoop of ice cream",
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Oreo Crepe",
         price: "$16",
         desc: "A crepe filled with cream and crushed Oreo, coated in Belgian milk chocolate",
+        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Brownie Crepe w Ice Cream",
         price: "$20",
         desc: "Two crepes cut into fettucine-style pieces, topped with Belgian milk chocolate and covered in brownie chunks with a scoop of ice cream on top",
+        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Cinnamon Crepe",
         price: "$17",
         desc: "Two crepes cut into fettucine-style pieces, tossed with cinnamon sugar and a scoop of ice cream on top",
+        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -88,45 +93,48 @@ const menuCategories: MenuCategory[] = [
     icon: IceCream,
     items: [
       {
-        name: "Large Waffle Bites",
-        price: "$20",
-        desc: "Three waffles cut into bite-sized pieces, topped with strawberries, ice cream and your choice of sauce",
-        tag: "Popular",
-        image: "https://images.unsplash.com/photo-1773516035322-e413a151ad14?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-5",
-      },
-      {
-        name: "Brownie Waffle w Ice Cream",
-        price: "$20",
-        desc: "Two waffles cut into bite-sized pieces, topped with Belgian milk chocolate and chunks of brownies with a scoop of ice cream on top.",
-        tag: "Warm & indulgent",
-        image: "https://images.unsplash.com/photo-1551578657-a7e74acb0135?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
-        span: "lg:col-span-7",
-      },
-      {
         name: "Classic Waffle Pop",
         price: "$10",
         desc: "A single waffle served on a stick with your choice of sauce",
+        image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Small Waffle Bites",
         price: "$16",
         desc: "Two waffles cut into bite-sized pieces, topped with strawberries and your choice of sauce",
+        image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Large Waffle Bites",
+        price: "$20",
+        desc: "Three waffles cut into bite-sized pieces, topped with strawberries, ice cream and your choice of sauce",
+        tag: "Popular",
+        image: "https://images.unsplash.com/photo-1773516035322-e413a151ad14?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Waffle Fruit",
         price: "$18",
         desc: "Two half-waffles filled with fresh strawberries, banana, kiwi and pineapple, topped with luscious Belgian milk chocolate.",
+        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Waffle Ice Cream Sandwich",
         price: "$18",
         desc: "Two waffles filled with ice cream topped with luscious Belgian milk chocolate.",
+        image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Salted Caramel Waffle w Ice Cream",
         price: "$15",
         desc: "A single waffle lathered in warm salted caramel sauce and paired with a scoop of vanilla ice cream",
+        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Brownie Waffle w Ice Cream",
+        price: "$20",
+        desc: "Two waffles cut into bite-sized pieces, topped with Belgian milk chocolate and chunks of brownies with a scoop of ice cream on top.",
+        tag: "Indulgent",
+        image: "https://images.unsplash.com/photo-1551578657-a7e74acb0135?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -136,30 +144,29 @@ const menuCategories: MenuCategory[] = [
     icon: Sparkles,
     items: [
       {
+        name: "Cup of Joy",
+        price: "$14",
+        desc: "Strawberries in a cup, covered with Belgian chocolate",
+        image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
         name: "Strawberry Pistachio Crunch Cup",
         price: "$16",
         desc: "Strawberries in a cup, covered with Belgian chocolate and a decadent blend of kataifi and pistachio sauce",
         tag: "Viral sensation",
-        image: "https://images.unsplash.com/photo-1543255006-d639546f3c7e?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
-        span: "lg:col-span-7",
-      },
-      {
-        name: "Cup of Joy",
-        price: "$14",
-        desc: "Strawberries in a cup, covered with Belgian chocolate",
-        tag: "Fresh daily",
-        image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-5",
+        image: "https://images.unsplash.com/photo-1543255006-d639546f3c7e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Small Strawberry Bites",
         price: "$5",
         desc: "Two strawberries coated in Belgian chocolate",
+        image: "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Large Strawberry Bites",
         price: "$8",
         desc: "Four strawberries coated in Belgian chocolate",
+        image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -169,54 +176,58 @@ const menuCategories: MenuCategory[] = [
     icon: Cookie,
     items: [
       {
-        name: "San Sebastian Cheese Cake",
-        price: "$16",
-        desc: "With your choice of sauce",
-        tag: "Rich & creamy",
-        image: "https://images.unsplash.com/photo-1524351199678-941a58a3df50?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-6",
-      },
-      {
         name: "Lotus Sweet w Ice Cream",
         price: "$15",
         desc: "A Biscoff based cookie, baked fresh in the oven to order. Served w/ Biscoff sauce and a scoop of ice cream",
-        tag: "Biscoff favorite",
-        image: "https://images.unsplash.com/photo-1708175313856-8573b2bf8a3a?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-6",
+        image: "https://images.unsplash.com/photo-1708175313856-8573b2bf8a3a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Cookies w Ice Cream",
         price: "$15",
         desc: "A chocolate chip cookie, baked fresh in the oven to order. Served covered in Belgian Chocolate and Ice Cream",
+        image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "M&M Cookie",
         price: "$15",
         desc: "An M&M cookie, baked fresh in the oven to order. Served in Belgian Chocolate and Ice Cream",
+        image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "San Sebastian Cheese Cake",
+        price: "$16",
+        desc: "With your choice of sauce",
+        image: "https://images.unsplash.com/photo-1524351199678-941a58a3df50?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Lava Cake w Ice Cream",
         price: "$13",
+        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Sticky Date Cake w Ice Cream",
         price: "$12",
+        image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Carrot Cake w Cream (V)",
         price: "$10",
+        image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Red Velvet Cake w Cream (V)",
         price: "$10",
+        image: "https://images.unsplash.com/photo-1586788224325-9945037d2f97?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "PB Choc Fudge Brownie (V)",
         price: "$10",
+        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Biscoff Choc Fudge Brownie (V)",
         price: "$10",
+        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -226,32 +237,42 @@ const menuCategories: MenuCategory[] = [
     icon: CupSoda,
     items: [
       {
-        name: "Strawberry Matcha",
-        price: "$9",
-        tag: "Best seller",
-        image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-6",
+        name: "Iced Matcha",
+        price: "$8",
+        image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Matcha Latte",
+        price: "$7",
+        image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Spanish Matcha Latte",
         price: "$10",
-        tag: "Smooth",
-        image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-6",
+        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
-      { name: "Iced Matcha", price: "$8" },
-      { name: "Matcha Latte", price: "$7" },
+      {
+        name: "Strawberry Matcha",
+        price: "$9",
+        image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
       {
         name: "Matcha Cookie",
         price: "$15",
         desc: "A Matcha based cookie, baked fresh in the oven to order. served covered in White Chocolate and Ice Cream",
+        image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Strawberry Matcha Cookie",
         price: "$16",
         desc: "A Matcha based cookie, baked fresh in the oven to order. served covered in white chocolate, fresh strawberries, syrup and a scoop of Ice Cream",
+        image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
-      { name: "Matcha and Raspberry Slice (V)", price: "$10" },
+      {
+        name: "Matcha and Raspberry Slice (V)",
+        price: "$10",
+        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
     ],
   },
   {
@@ -259,14 +280,46 @@ const menuCategories: MenuCategory[] = [
     title: "Joyful Goodies",
     icon: Sparkles,
     items: [
-      { name: "Sunveil Blend 250g Coffee Beans", price: "$20" },
-      { name: "Sunveil Blend 1kg Coffee Beans", price: "$60" },
-      { name: "Salmas Coffee Beans Dark 250g", price: "$15" },
-      { name: "Salmas Coffee Beans Light 250g", price: "$15" },
-      { name: "Salmas Coffee Grounds Spiced 250g", price: "$17" },
-      { name: "Belgian Milk Chocolate Buds 250g", price: "$11" },
-      { name: "Belgian White Chocolate Buds 250g", price: "$11" },
-      { name: "Belgian Dark Chocolate Buds 250g", price: "$11" },
+      {
+        name: "Sunveil Blend 250g Coffee Beans",
+        price: "$20",
+        image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Sunveil Blend 1kg Coffee Beans",
+        price: "$60",
+        image: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Salmas Coffee Beans Dark 250g",
+        price: "$15",
+        image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Salmas Coffee Beans Light 250g",
+        price: "$15",
+        image: "https://images.unsplash.com/photo-1587049352847-4a222e784d38?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Salmas Coffee Grounds Spiced 250g",
+        price: "$17",
+        image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Belgian Milk Chocolate Buds 250g",
+        price: "$11",
+        image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Belgian White Chocolate Buds 250g",
+        price: "$11",
+        image: "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Belgian Dark Chocolate Buds 250g",
+        price: "$11",
+        image: "https://images.unsplash.com/photo-1548877773-84061a9fbdfa?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
     ],
   },
   {
@@ -274,11 +327,31 @@ const menuCategories: MenuCategory[] = [
     title: "Hot Drinks",
     icon: Flame,
     items: [
-      { name: "Thick Hot Choc", price: "$6" },
-      { name: "Sahlab", price: "$6" },
-      { name: "English Breakfast", price: "$5" },
-      { name: "Sage / Habag / Mint Tea", price: "$5" },
-      { name: "Lemon & Mint Tea", price: "$5.5" },
+      {
+        name: "Thick Hot Choc",
+        price: "$6",
+        image: "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Sahlab",
+        price: "$6",
+        image: "https://images.unsplash.com/photo-1572442388796-11668a67e53d?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "English Breakfast",
+        price: "$5",
+        image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Sage / Habag / Mint Tea",
+        price: "$5",
+        image: "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Lemon & Mint Tea",
+        price: "$5.5",
+        image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
     ],
   },
   {
@@ -287,26 +360,64 @@ const menuCategories: MenuCategory[] = [
     icon: CupSoda,
     items: [
       {
+        name: "Creamy Iced Cappuccino",
+        price: "$10",
+        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Creamy Iced Mocha",
+        price: "$10",
+        image: "https://images.unsplash.com/photo-1578314675249-a6919f3cb6e0?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Iced Coffee",
+        price: "$10",
+        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
         name: "Spanish Latte",
         price: "$10",
-        tag: "Iced favourite",
-        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-12",
+        image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
-      { name: "Creamy Iced Cappuccino", price: "$10" },
-      { name: "Creamy Iced Mocha", price: "$10" },
-      { name: "Iced Coffee", price: "$10" },
-      { name: "Mont Blanc", price: "$10" },
-      { name: "Thick Shakes", price: "$10", desc: "Vanilla, Cookies n Cream, Salted Caramel, Biscoff" },
-      { name: "Minty Lemonade", price: "$10", desc: "A frozen, sweet and refreshing lemon and mint concoction" },
-      { name: "Mocktails", price: "$10", desc: "Green V / Green Apple or Blue V / Pineapple or Code Red / Strawberry" },
-      { name: "Hibiscus Iced Tea", price: "$10" },
+      {
+        name: "Mont Blanc",
+        price: "$10",
+        image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Thick Shakes",
+        price: "$10",
+        desc: "Vanilla, Cookies n Cream, Salted Caramel, Biscoff",
+        image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Minty Lemonade",
+        price: "$10",
+        desc: "A frozen, sweet and refreshing lemon and mint concoction",
+        image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Mocktails",
+        price: "$10",
+        desc: "Green V / Green Apple or Blue V / Pineapple or Code Red / Strawberry",
+        image: "https://images.unsplash.com/photo-1536935338788-846bb9981813?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Hibiscus Iced Tea",
+        price: "$10",
+        image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
       {
         name: "Smoothies",
         price: "$10",
         desc: "Vitality (Strawberry, Mango, Raspberry), Reboot (Papaya, Pineapple, Banana), Detox (Dates, Blackberries, Banana, Blueberries), Booster (Lime, Basil, Mango, Banana)",
+        image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
-      { name: "Water", price: "$3" },
+      {
+        name: "Water",
+        price: "$3",
+        image: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
     ],
   },
   {
@@ -315,20 +426,45 @@ const menuCategories: MenuCategory[] = [
     icon: Coffee,
     items: [
       {
-        name: "Saudi Coffee",
-        price: "$6",
-        tag: "Traditional",
-        image: "https://images.unsplash.com/photo-1661685249298-3d2dbe68d309?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-        span: "lg:col-span-12",
+        name: "Espresso",
+        price: "$4",
+        image: "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
-      { name: "Espresso", price: "$4" },
-      { name: "Small Coffee", price: "$5.5" },
-      { name: "Large Coffee", price: "$6" },
-      { name: "Iced Latte", price: "$8" },
-      { name: "Iced Long Black", price: "$8" },
-      { name: "Long Black", price: "$5.5" },
-      { name: "Cold Brew", price: "$8" },
-      { name: "Babychino", price: "$2.5" },
+      {
+        name: "Small Coffee",
+        price: "$5.5",
+        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Large Coffee",
+        price: "$6",
+        image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Iced Latte",
+        price: "$8",
+        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Iced Long Black",
+        price: "$8",
+        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Long Black",
+        price: "$5.5",
+        image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Cold Brew",
+        price: "$8",
+        image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Babychino",
+        price: "$2.5",
+        image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
     ],
   },
   {
@@ -340,6 +476,7 @@ const menuCategories: MenuCategory[] = [
         name: "Mix n Match",
         price: "$10",
         desc: "Base of Apple + Lemon and Ginger (Optional) + 3 Seasonal Fruits or Vegetables of your choice from the display",
+        image: "https://images.unsplash.com/photo-1613478223719-2ab802602423?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
@@ -348,25 +485,35 @@ const menuCategories: MenuCategory[] = [
     title: "Dates",
     icon: Sparkles,
     items: [
-      { name: "Saudi Coffee", price: "$6" },
-      { name: "Dallah (Saudi Pot of Coffee)", price: "$20" },
-      { name: "Dallah with Dates", price: "$24" },
+      {
+        name: "Saudi Coffee",
+        price: "$6",
+        image: "https://images.unsplash.com/photo-1661685249298-3d2dbe68d309?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Dallah (Saudi Pot of Coffee)",
+        price: "$20",
+        image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
+      {
+        name: "Dallah with Dates",
+        price: "$24",
+        image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      },
       {
         name: "Stuffed Dates",
         price: "$12",
         desc: "Five dates stuffed with crunchy kataifi coated in pistachio sauce",
+        image: "https://images.unsplash.com/photo-1543255006-d639546f3c7e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
     ],
   },
 ];
 
 export default function Menu() {
-  const [activeTab, setActiveTab] = useState("strawberries");
+  const [activeTab, setActiveTab] = useState("crepes");
 
-  const currentCategory = menuCategories.find((cat) => cat.id === activeTab) || menuCategories[2];
-
-  const featuredCards = currentCategory.items.filter((item) => item.image);
-  const listItems = currentCategory.items.filter((item) => !item.image);
+  const currentCategory = menuCategories.find((cat) => cat.id === activeTab) || menuCategories[0];
 
   return (
     <section className="relative mx-auto max-w-7xl px-6 md:px-12 py-24 md:py-32" id="menu">
@@ -428,79 +575,55 @@ export default function Menu() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.4 }}
-          className="space-y-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
-          {/* Featured Image Cards (if any in category) */}
-          {featuredCards.length > 0 && (
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-7">
-              {featuredCards.map((item, index) => (
-                <motion.article
-                  key={item.name}
-                  className={`group relative overflow-hidden rounded-3xl border border-white/10 bg-cocoa-800 ${item.span || "lg:col-span-6"} min-h-[300px] md:min-h-[360px]`}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
-                >
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    loading="lazy"
-                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-[1200ms] ease-out"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-cocoa-900 via-cocoa-900/40 to-transparent" />
-                  <div className="relative h-full flex flex-col justify-end p-6 md:p-8">
-                    <div className="flex justify-between items-start gap-4 mb-2">
-                      {item.tag && (
-                        <span className="rounded-full border border-gold-400/40 bg-cocoa-900/60 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-gold-300 backdrop-blur-md">
-                          {item.tag}
-                        </span>
-                      )}
-                      <span className="font-display text-2xl font-bold text-gold-400 bg-cocoa-900/80 px-3 py-1 rounded-full border border-gold-400/30">
-                        {item.price}
-                      </span>
-                    </div>
-                    <h3 className="font-display text-2xl md:text-3xl font-bold text-cream mb-2">
-                      {item.name}
-                    </h3>
-                    {item.desc && (
-                      <p className="text-sm text-cream-200">
-                        {item.desc}
-                      </p>
-                    )}
-                  </div>
-                </motion.article>
-              ))}
-            </div>
-          )}
+          {currentCategory.items.map((item, index) => (
+            <motion.div
+              key={index}
+              className="group relative overflow-hidden rounded-3xl border border-white/10 bg-cocoa-800 flex flex-col justify-between hover:border-gold-400/40 transition-all duration-300"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.05 }}
+            >
+              {/* Item Image */}
+              <div className="relative h-48 w-full overflow-hidden bg-cocoa-900">
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  loading="lazy"
+                  onError={(e) => {
+                    // Fallback to a guaranteed working dessert image if any external URL fails
+                    (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=srgb&fm=jpg&q=85&w=800";
+                  }}
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-[1000ms] ease-out"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-cocoa-900 via-cocoa-900/30 to-transparent" />
+                {item.tag && (
+                  <span className="absolute top-3 left-3 rounded-full border border-gold-400/40 bg-cocoa-900/70 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-gold-300 backdrop-blur-md">
+                    {item.tag}
+                  </span>
+                )}
+                <span className="absolute top-3 right-3 font-display text-lg font-bold text-gold-400 bg-cocoa-900/85 px-3 py-1 rounded-full border border-gold-400/30 shadow-lg">
+                  {item.price}
+                </span>
+              </div>
 
-          {/* List Items Grid */}
-          {listItems.length > 0 && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {listItems.map((item, index) => (
-                <div
-                  key={index}
-                  className="group relative rounded-2xl border border-white/10 bg-cocoa-800/80 p-5 backdrop-blur-md hover:border-gold-400/40 transition-all flex flex-col justify-between"
-                >
-                  <div>
-                    <div className="flex justify-between items-start gap-4 mb-1">
-                      <h4 className="font-display text-xl font-bold text-cream group-hover:text-gold-300 transition-colors">
-                        {item.name}
-                      </h4>
-                      <span className="font-display text-xl font-bold text-gold-400">
-                        {item.price}
-                      </span>
-                    </div>
-                    {item.desc && (
-                      <p className="text-xs md:text-sm text-cream-200/80 leading-relaxed mb-2">
-                        {item.desc}
-                      </p>
-                    )}
-                  </div>
+              {/* Item Content */}
+              <div className="p-6 flex flex-col justify-between flex-grow">
+                <div>
+                  <h4 className="font-display text-xl font-bold text-cream group-hover:text-gold-300 transition-colors mb-2">
+                    {item.name}
+                  </h4>
+                  {item.desc && (
+                    <p className="text-xs md:text-sm text-cream-200/80 leading-relaxed mb-4">
+                      {item.desc}
+                    </p>
+                  )}
                 </div>
-              ))}
-            </div>
-          )}
+              </div>
+            </motion.div>
+          ))}
         </motion.div>
       </AnimatePresence>
 
