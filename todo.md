@@ -11,3 +11,6 @@
 - [x] Present the final fact-check audit report to the user.
 - [x] Transcribe and verify every menu item, price, category, add-on, and allergen note from the menu board photo against `Menu.tsx`.
 - [x] Run type check (`pnpm check`), test build, and capture preview screenshots to verify the updated menu rendering.
+- [x] Reconcile all menu prices verbatim from the menu board photo.
+- [x] Restore image-led visual cards to the Menu component while keeping all menu categories and items.
+- [x] Verify build and rendering.
