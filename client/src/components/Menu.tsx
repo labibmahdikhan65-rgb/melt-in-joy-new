@@ -47,19 +47,19 @@ const menuCategories: MenuCategory[] = [
         name: "Lemon & Sugar Crepe",
         price: "$15",
         desc: "Two Crepes cut into fettucine-style pieces, tossed in sugar and served with fresh lemon wedges",
-        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Crepe Fruit",
         price: "$18",
         desc: "Two Crepes cut into fettucine-style pieces, served with Belgian chocolate and covered in Strawberries, Pineapple, Kiwi and Banana",
-        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Strawberry Crepe",
         price: "$17",
         desc: "Two Crepes cut into fettucine-style pieces, served with Belgian chocolate and covered in Strawberries",
-        image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1543255006-d639546f3c7e?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Banana Crepe w Ice Cream",
@@ -71,13 +71,13 @@ const menuCategories: MenuCategory[] = [
         name: "Oreo Crepe",
         price: "$16",
         desc: "A crepe filled with cream and crushed Oreo, coated in Belgian milk chocolate",
-        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Brownie Crepe w Ice Cream",
         price: "$20",
         desc: "Two crepes cut into fettucine-style pieces, topped with Belgian milk chocolate and covered in brownie chunks with a scoop of ice cream on top",
-        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+        image: "https://images.unsplash.com/photo-1551578657-a7e74acb0135?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       },
       {
         name: "Cinnamon Crepe",
@@ -593,7 +593,6 @@ export default function Menu() {
                   alt={item.name}
                   loading="lazy"
                   onError={(e) => {
-                    // Fallback to a guaranteed working dessert image if any external URL fails
                     (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=srgb&fm=jpg&q=85&w=800";
                   }}
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-[1000ms] ease-out"
